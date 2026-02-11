@@ -24,12 +24,4 @@ pipeline {
             }
         }
     }
-/*    post {
-        always {
-          mail to: 'maquinon447@gmail.com',
-          subject: "Status of pipeline: ${currentBuild.fullDisplayName}",
-          body: "${env.BUILD_URL} has result ${currentBuild.result}"
-        }
-      }
-*/
 }
