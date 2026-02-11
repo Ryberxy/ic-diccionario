@@ -1,6 +1,6 @@
 # Prueba
 
-Hola, esto es una pba*EAEda
+Hola, esto es una pba
 
 Ejemplo de integración continúa para
 
