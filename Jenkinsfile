@@ -20,7 +20,7 @@ pipeline {
             steps {
                 sh '''
                 export LC_ALL=C.UTF-8
-                OUTPUT=`cat doc/*.md | aspell list -d es -p ./.aspell.es.pws`; if [ -n "$OUTPUT" ]; then echo $OUTPUT; exit 1; fi'''
+                OUTPUT='cat doc/*.md | aspell list -d es -p ./.aspell.es.pws'; if [ -n "$OUTPUT" ]; then echo $OUTPUT; exit 1; fi'''
             }
         }
     }
